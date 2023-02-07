@@ -157,3 +157,28 @@ em {
 #values a:visited {
     color: brown;
 }
+
+figure img {
+    height: 250px;
+    object-fit: cover;
+}
+
+#chili-pics {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 50% 50%;
+    margin-left: 15%;
+}
+
+#contact h1 {
+    margin-left: 45%;
+}
+
+#contact p {
+    margin-left: 39%;
+}
+
+figcaption {
+    margin-left: 8px;
+}
