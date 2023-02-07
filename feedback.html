@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="layout.css">
+  </head>
+  <body>
+    <div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="feedback.html">Feedback Survey</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <form>
+        <fieldset>
+
+        <div>
+
+            <div>
+              <h1 class="feedback">We would love to hear from you!</h1>
+            </div>
+
+            <div>
+              <label for="name">Name:</label>
+              <input id="name" type="text" required>
+            </div>
+
+            <div>
+              <label for="email">Email:</label>
+              <input id="email" type="email" required>
+            </div>
+
+            <div>
+              <label for="number">Phone Number:</label>
+              <input id="number" type="number" min="000000000" max="999999999">
+            </div>
+        </div>
+
+        <div>
+            <div id="inline">
+              <p>Which is your favorite chili oil?</p>
+              <input id="original" type="radio" value="original" name="oil">
+              <label for="original">Original</label>
+              <input id="po" type="radio" value="po" name="oil">
+              <label for="po">Prawn and Onion</label>
+              <input id="pg" type="radio" value="pg" name="oil">
+              <label for="pg">Prawn and Garlic</label>
+              <input id="none" type="radio" class="inline" value="none" name="oil">
+              <label for="none">None</label>
+            </div>
+        </div>
+
+        <div>
+          <p>How would you rate the flavor of our chili oil on a scale of 1-10<br>
+          <em class="small">(10 being the highest and 1 being the lowest)</em></p>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+
+        <div>
+            <div>
+              <p>Which flavors would you mix?<br>
+              <em class="small">(Select all that apply)</em></p>
+            </div>
+
+            <div>
+              <input id="prawns" type="checkbox" value="1">
+              <label for="prawns">Prawns</label>
+              <input id="garlic" type="checkbox" value="2">
+              <label for="garlic">Garlic</label>
+              <input id="onion" type="checkbox" value="3">
+              <label for="onion">Onion</label>
+              <input id="beans" type="checkbox" value="4">
+              <label for="beans">Beans</label>
+            </div>
+        </div><br>
+
+        <div>
+          <label for="ideas">Any additional comment to help us improve?</label><br>
+          <textarea id="ideas" rows="4" cols="70"></textarea>
+        </div>
+
+        <input type="submit" id="submit">
+        </fieldset>
+
+        </form>
+</body>
+</html>

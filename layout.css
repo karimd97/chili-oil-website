@@ -74,3 +74,54 @@ body {
 #bottom a:hover {
     color: black;
 }
+
+h1 {
+    font-size: 29px;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    margin: 2px 0 20px;
+  }
+
+#inline label {
+    font-size: 16px;
+}
+
+#inline p input label{
+    padding-top: 2px;
+}
+
+em {
+    font-size: 11px;
+}
+
+#submit {
+    display: block;
+    width: 70%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 300px;
+}
+
+#submit:hover {
+    background-color: black;
+    color: white;
+}
