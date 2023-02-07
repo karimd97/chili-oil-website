@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+
+#nav-bar {
+    width: 100%;
+    float: left;
+    background-color: brown;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#nav-bar ul li {
+    float: right;
+}
+
+#nav-bar ul li a {
+    text-align: center;
+    display: block;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: brown;
+    color: beige;
+}
+
+#nav-bar a:hover {
+    text-decoration: none;
+    background-color: black;
+}
+
+#chili-eggs {
+    height: 264px;
+    width: 386px;
+}
+
+#canada {
+    height: 310px;
+    width: 343px;
+    text-align: center;
+}
+
+#calgary {
+    width: 261px;
+    height: 127px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#bottom li {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+#bottom a {
+    color: brown;
+}
+
+#bottom a:hover {
+    color: black;
+}
