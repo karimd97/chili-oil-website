@@ -125,3 +125,35 @@ em {
     background-color: black;
     color: white;
 }
+
+#about h1 {
+    text-align: center;
+}
+
+#paragraph p {
+    text-align: match-parent;
+    max-width: 40%;
+    margin: auto;
+}
+
+#values p {
+    font-size: 20px;
+    margin-left: 45%;
+}
+
+#values ol li {
+    margin-left: 47%;
+}
+
+#values a {
+    text-decoration: none;
+}
+
+#values a:hover {
+    background-color: black;
+    color: white
+}
+
+#values a:visited {
+    color: brown;
+}
