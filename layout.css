@@ -36,24 +36,15 @@ body {
     background-color: black;
 }
 
-#chili-eggs {
-    height: 264px;
-    width: 386px;
-}
-
-#canada {
-    height: 310px;
-    width: 343px;
-    text-align: center;
-}
-
-#calgary {
-    width: 261px;
-    height: 127px;
-}
-
 .row {
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.row img {
+    height: 250px;
+    object-fit: cover;
 }
 
 .column {
